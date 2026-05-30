@@ -1,0 +1,11 @@
+{
+  "name": "redfoxdynamics",
+  "version": "1.0.0",
+  "description": "RedFoxDynamics — AI-Native Research & Deep-Tech",
+  "scripts": {
+    "start": "serve -s . -l $PORT"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
