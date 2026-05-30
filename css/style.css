@@ -556,6 +556,60 @@ ul, ol {
 }
 
 /* =============================================
+   9b. Manifesto Quote & Mission
+   ============================================= */
+.manifesto-quote {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 48px;
+  padding: 48px;
+  border: none;
+  border-left: 3px solid var(--color-primary);
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+}
+
+.manifesto-quote p {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-text);
+  font-style: italic;
+}
+
+.mission-card {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 48px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition-slow);
+}
+
+.mission-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 40px var(--color-primary-glow);
+}
+
+.mission-card .section__label {
+  margin-bottom: 12px;
+}
+
+.mission-card__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.mission-card__desc {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
+
+/* =============================================
    10. About
    ============================================= */
 .about__features {
