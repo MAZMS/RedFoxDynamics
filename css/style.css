@@ -229,7 +229,7 @@ ul, ol {
   color: var(--color-text);
 }
 
-.header__mobile-cta {
+.header__nav .header__mobile-cta {
   display: none;
 }
 
@@ -863,6 +863,29 @@ ul, ol {
 /* =============================================
    14. Responsive
    ============================================= */
+@media (max-width: 1024px) {
+  .header__nav {
+    gap: 20px;
+  }
+
+  .header__link {
+    font-size: 0.875rem;
+  }
+
+  .hero__pillars {
+    gap: 24px;
+  }
+
+  .about__features {
+    grid-template-columns: 1fr;
+  }
+
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .header__nav {
     position: fixed;
@@ -889,7 +912,7 @@ ul, ol {
     font-size: 1.5rem;
   }
 
-  .header__mobile-cta {
+  .header__nav .header__mobile-cta {
     display: inline-flex;
   }
 
