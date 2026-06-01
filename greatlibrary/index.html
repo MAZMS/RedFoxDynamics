@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operation Rizal Rocket — GreatLibrary.ai</title>
+  <meta name="description" content="A 90-day sprint to build an AI engine that generates professional-grade ebooks in under 120 seconds. Building in public.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="Operation Rizal Rocket — GreatLibrary.ai">
+  <meta property="og:description" content="90-day sprint to build the world's fastest AI ebook generation engine. Professional-grade books in under 120 seconds.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23fff'/><text x='16' y='22' font-family='system-ui' font-size='14' font-weight='700' fill='%23000' text-anchor='middle'>GL</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="/" class="header__logo">
+        <span class="header__logo-text">GreatLibrary</span><span class="header__logo-dot">.ai</span>
+      </a>
+      <a href="#waitlist" class="btn btn--primary btn--sm">Join Alpha</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          Building in Public
+        </div>
+        <h1 class="hero__title">
+          <span class="hero__title-line hero__title--sub">Operation</span>
+          <span class="hero__title-line hero__title--main">Rizal Rocket</span>
+        </h1>
+        <p class="hero__subtitle">
+          A 90-day sprint to build an AI engine that generates professional-grade ebooks in under 120 seconds.
+        </p>
+
+        <div class="countdown" id="countdown">
+          <div class="countdown__block">
+            <span class="countdown__number" id="cd-days">--</span>
+            <span class="countdown__label">Days</span>
+          </div>
+          <span class="countdown__sep">:</span>
+          <div class="countdown__block">
+            <span class="countdown__number" id="cd-hours">--</span>
+            <span class="countdown__label">Hours</span>
+          </div>
+          <span class="countdown__sep">:</span>
+          <div class="countdown__block">
+            <span class="countdown__number" id="cd-min">--</span>
+            <span class="countdown__label">Min</span>
+          </div>
+          <span class="countdown__sep">:</span>
+          <div class="countdown__block">
+            <span class="countdown__number" id="cd-sec">--</span>
+            <span class="countdown__label">Sec</span>
+          </div>
+        </div>
+
+        <div class="progress" id="progress">
+          <div class="progress__meta">
+            <span class="progress__day" id="progress-day">Day 1</span>
+            <span class="progress__pct" id="progress-pct">0%</span>
+          </div>
+          <div class="progress__track">
+            <div class="progress__fill" id="progress-fill"></div>
+          </div>
+          <div class="progress__range">
+            <span>Jun 1, 2026</span>
+            <span>Aug 31, 2026</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="section" id="mission">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">The Mission</span>
+          <h2 class="section__title">Professional-grade ebooks.<br>Under 120 seconds.</h2>
+          <p class="section__desc">
+            GreatLibrary.ai is building the fastest AI-powered book generation engine on the planet. One prompt. One click. A complete, publish-ready ebook — before your coffee gets cold.
+          </p>
+        </div>
+        <div class="stats">
+          <div class="stat" data-animate>
+            <span class="stat__value">&lt;120s</span>
+            <span class="stat__label">Generation Target</span>
+          </div>
+          <div class="stat" data-animate>
+            <span class="stat__value">5</span>
+            <span class="stat__label">Alpha Users</span>
+          </div>
+          <div class="stat" data-animate>
+            <span class="stat__value">Aug 31</span>
+            <span class="stat__label">Public Launch</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap -->
+    <section class="section" id="roadmap">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">The Roadmap</span>
+          <h2 class="section__title">Three phases.<br>One target.</h2>
+        </div>
+        <div class="phases">
+          <article class="phase" data-animate data-phase="1">
+            <div class="phase__top">
+              <span class="phase__num">01</span>
+              <span class="phase__status" id="phase-1-status">Active</span>
+            </div>
+            <h3 class="phase__name">Engine Ignition</h3>
+            <p class="phase__desc">Core infrastructure and latency optimization. Build the foundational generation pipeline and push it below the 120-second threshold.</p>
+            <div class="phase__tags">
+              <span class="tag">Infrastructure</span>
+              <span class="tag">Latency</span>
+              <span class="tag">Pipeline</span>
+            </div>
+          </article>
+          <article class="phase" data-animate data-phase="2">
+            <div class="phase__top">
+              <span class="phase__num">02</span>
+              <span class="phase__status" id="phase-2-status">Upcoming</span>
+            </div>
+            <h3 class="phase__name">Alpha Routing</h3>
+            <p class="phase__desc">Onboard 5 validated, high-leverage users. Real feedback, real workflows, real proof before going wide.</p>
+            <div class="phase__tags">
+              <span class="tag">Validation</span>
+              <span class="tag">Onboarding</span>
+              <span class="tag">Feedback</span>
+            </div>
+          </article>
+          <article class="phase" data-animate data-phase="3">
+            <div class="phase__top">
+              <span class="phase__num">03</span>
+              <span class="phase__status" id="phase-3-status">Upcoming</span>
+            </div>
+            <h3 class="phase__name">Public Strike</h3>
+            <p class="phase__desc">Full public release on National Heroes Day. The engine goes live. The library opens its doors.</p>
+            <div class="phase__tags">
+              <span class="tag">Launch</span>
+              <span class="tag">Heroes Day</span>
+              <span class="tag">Public</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Waitlist -->
+    <section class="section waitlist" id="waitlist">
+      <div class="container">
+        <div class="waitlist__inner">
+          <span class="section__label">Alpha Waitlist</span>
+          <h2 class="section__title">Get early access.</h2>
+          <p class="section__desc">Be one of the first five to test the engine. No spam. Just a signal when we're ready.</p>
+          <form class="waitlist__form" id="waitlist-form">
+            <div class="waitlist__field">
+              <input type="email" class="waitlist__input" id="waitlist-email" placeholder="you@email.com" required aria-label="Email address">
+              <button type="submit" class="btn btn--primary">
+                Join Waitlist
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10m0 0L9 4m4 4L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__copy">&copy; 2026 GreatLibrary.ai</span>
+      <span class="footer__credit">A <a href="https://redfoxdynamics.com">RedFoxDynamics</a> product</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
